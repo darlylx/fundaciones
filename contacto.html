@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang= "es">
+
+<head>
+    <link rel="icon" type="image/png" href="icono.png">
+
+ <meta charset="utf-8">
+ <title>Fundaciones</title>
+ <meta name="viewport" content="widt=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+ <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+ <link rel="stylesheet" type="text/css" href="css/estilos.css">
+ </head>
+
+<body background="bg.jpg" px:100%;>
+
+
+ <header>
+
+  <nav class="navbar navbar-inverse navbar-static-top" role="navigation">
+   <div class="container">
+    <div class="navbar-header">
+    <!-- Esto es para hacer el boton que se muestra cuando el dispositivo es mediano-->
+     <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navegacion" aria-expended="false" aria-controls="navbar">
+      <span class="sr-only">Ocultar</span>
+      <span class="icon-bar"></span>
+      <span class="icon-bar"></span>
+      <span class="icon-bar"></span>
+     </button>
+     
+    </div>
+      <!-- Aqui se iniciara el menu-->
+
+    <div class="collapse navbar-collapse" id="navegacion"> <!-- El id que se agrega aqui debe de llevar el mismo nombre que se ingreso en el data-target que va en el boton que se muestra en dispositivos medianos-->
+
+     <ul class="nav navbar-nav">
+      
+      <li><a href="index.html">Fundaciones</a></li>
+
+      <li><a href="historia.html">¿Qué es una ONG?</a></li>
+
+      <li><a href="personajes.html">Imagenes</a></li>
+
+     
+     </ul> 
+
+     <form action="" class="navbar-form navbar-right" role="search">
+      <div class="form-group">
+       <input type="text" class="form-control" placeholder="Buscar">
+      </div>
+      <button type="submit" class="btn btn-primary">
+       <span class="glyphicon glyphicon-search"></span>
+      </button>
+
+     </form>
+       </div>
+   </div>
+  </nav>
+ </header>
+
+ <section class="jumbotron">
+  <div class="container">
+   <center>
+   <h1><font color="black">FUNDACIONES</font></h1>
+
+  
+   </center>
+  </div>
+ </section>
+
+ <section class="main container">
+<div class="row">
+    <section class="posts col-md-9">
+        <div class="miga-de-pan">
+<body>
+
+    <section class="form_wrap">
+
+        <section class="cantact_info">
+            <section class="info_title">
+                <span class="fa fa-user-circle"></span>
+                <h2>INFORMACION<br>DE CONTACTO</h2>
+            </section>
+            <section class="info_items">
+                <p><span class="fa fa-envelope"></span> dcdrls@gmail.com</p>
+                <p><span class="fa fa-mobile"></span> +502 2393-2643</p>
+            </section>
+        </section>
+
+        <form action="mensaje-de-envio.html" method="post" class="form_contact">
+            <h2>Envia un mensaje</h2>
+            <div class="user_info">
+                <label for="names">Nombres *</label>
+                <input type="text" id="names" name="nombre" required>
+
+                <label for="phone">Telefono / Celular</label>
+                <input type="text" id="phone" name="telefono">
+
+                <label for="email">Correo electronico *</label>
+                <input type="text" id="email" name="correo" required>
+
+                <label for="mensaje">Mensaje *</label>
+                <textarea id="mensaje" name="mensaje" required></textarea>
+
+                <input href: type="submit" value="Enviar Mensaje" id="btnSen">
+
+            </div>
+
+        </form>
+
+    </section>
+
+
+
+    </section>
+</body>
+</html>
